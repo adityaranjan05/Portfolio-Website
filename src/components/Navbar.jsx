@@ -16,7 +16,7 @@ function Navbar() {
                 {navlinks.map((link) => (
                     <li 
                         key={link}
-                        className="text-xl text-white duration-150 hover:text-cyan-400"
+                        className="text-xl text-white duration-250 hover:text-cyan-500 active:scale-95"
                     >
                             <a href={`#${link.toLowerCase()}`}>
                                 {link}
