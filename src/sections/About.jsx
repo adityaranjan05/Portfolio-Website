@@ -9,8 +9,8 @@ const focus = ["Learning React",
 function About() {
 
     return (
-        <section id="about" className="flex flex-col items-center relative h-screen bg-[#D9D9D9]">
-            <h1 className="text-5xl p-4 mt-16 w-fit border-6 rounded-2xl shadow-2xl shadow-black">ABOUT ME</h1>
+        <section id="about" className="flex flex-col items-center relative h-screen bg-[#D9D9D9] border-t-4">
+            <h1 className="text-5xl px-18 py-4 mt-16 w-fit border-6 rounded-2xl shadow-2xl shadow-black">ABOUT ME</h1>
             <div className="flex flex-col items-center text-center mt-24 text-lg leading-loose">
                 <p className="tracking-widest text-shadow-amber-300">
                     I’m Aditya Ranjan Sinha, a Computer Science student at DSCE Bangalore.

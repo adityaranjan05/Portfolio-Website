@@ -6,4 +6,16 @@ html {
 
 body {
   font-family: 'Lexend', sans-serif;
+  background: linear-gradient();
+}
+
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* move full width of first set */
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 8s linear infinite;
 }

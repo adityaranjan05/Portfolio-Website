@@ -12,7 +12,7 @@ function Navbar() {
     // const [index, setIndex] = useState(0);
     return (
         <nav className="absolute w-full">
-            <ul className="flex justify-end list-none gap-12 p-8">
+            <ul className="flex justify-end list-none gap-12 mt-5 px-6 py-3">
                 {navlinks.map((link) => (
                     <li 
                         key={link}
