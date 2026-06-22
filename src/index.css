@@ -17,5 +17,5 @@ body {
 .animate-scroll {
   display: flex;
   width: max-content;
-  animation: scroll 8s linear infinite;
+  animation: scroll 12s linear infinite;
 }

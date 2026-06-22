@@ -18,19 +18,19 @@ function HeroText () {
                             <FaGithub />
                     </a>
                 </button>
-                <button className="transition-transform duration-250 hover:scale-120 bg-gray-400/60 p-3 rounded-xl">
+                <button className="transition-transform duration-250 hover:scale-120 bg-gray-400/60 p-3 rounded-xl hover:text-pink-500 duration-200">
                     <a
                         href="https://www.instagram.com/_adityara_05_/"
-                        className="text-3xl hover:text-pink-500 duration-200"
+                        className="text-3xl"
                         target="_blank"
                     >
                             <FaInstagram />
                     </a>
                 </button>
-                <button className="transition-transform duration-250 hover:scale-120 bg-gray-400/60 p-3 rounded-xl">
+                <button className="transition-transform duration-250 hover:scale-120 hover:text-blue-700 duration-200 bg-gray-400/60 p-3 rounded-xl">
                     <a
                         href="https://www.linkedin.com/in/adityaranjansinha"
-                        className="text-3xl hover:text-blue-600 duration-200"
+                        className="text-3xl"
                         target="_blank"
                     >
                             <FaLinkedin />

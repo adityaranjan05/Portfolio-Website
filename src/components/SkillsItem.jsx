@@ -4,7 +4,7 @@ function SkillItem({ image, name }) {
             <img
                 src={image}
                 alt={name}
-                className="h-40 object-contain"
+                className="h-40 object-contain duration-200 hover:scale-115"
             />
 
             <p className="mt-2 text-lg font-medium">
