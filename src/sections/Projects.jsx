@@ -68,7 +68,7 @@ function Projects() {
     return (
         <>
             <section id="projects" className="flex flex-col items-center relative min-h-screen p-16 bg-[#111111] border-t-4 border-[#2A2A2A]">
-                <h1 className="text-5xl px-18 py-4 mt-24 w-fit border-6 rounded-2xl text-[#FFFFFF] shadow-2xl shadow-black">PROJECTS</h1>
+                <h1 className="text-5xl px-18 py-4 mt-24 w-fit border-6 rounded-2xl text-[#FFFFFF] shadow-2xl shadow-black tracking-widest">PROJECTS</h1>
                 <div className="grid grid-cols-2 w-[80vw] gap-8 mt-18 p-4">
                     {projects.map((project) => (
                         <ProjectCard
