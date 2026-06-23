@@ -37,7 +37,7 @@ const learning = [
 function SkillRow(props) {
     return(
         <>
-            <h2 className="tracking-widest text-xl mt-10 ml-14">{props.title}</h2>
+            <h2 className="tracking-widest text-xl mt-10 ml-14 text-[#FFFFFF]">{props.title}</h2>
             <div className={`flex ${props.animate?"animate-scroll":""} mt-10`}>
                 {props.skills.map((skill,index) => (
                     <SkillItem 
