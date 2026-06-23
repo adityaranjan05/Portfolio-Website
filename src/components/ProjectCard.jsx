@@ -3,10 +3,16 @@ function ProjectCard(props) {
         <>
             <div className="bg-neutral-900 p-5 rounded-2xl z-10 shadow-lg shadow-black/20 border-2 border-[#2A2A2A] hover:scale-[1.02] hover:rotate-y-1 hover:shadow-xl transition-all duration-300">
 
-                <img 
-                    src={props.screenshot} 
-                    className="text-neutral-400 rounded-2xl h-96 object-cover border-2 border-[#2A2A2A]" 
-                />
+                <a 
+                    href={props.demo} 
+                    rel="noopener noreferrer" 
+                    target="_blank"
+                >
+                    <img 
+                        src={props.screenshot} 
+                        className="text-neutral-400 rougnded-2xl h-96 object-cover border-2 border-[#2A2A2A]" 
+                    />
+                </a>
 
                 <div className="tracking-widest mt-4">
                     <h1 className="text-[#FFFFFF] text-2xl">{props.title}</h1>
