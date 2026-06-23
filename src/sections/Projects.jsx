@@ -9,6 +9,7 @@ import ToDo from "../assets/ToDo.png"
 
 const projects = [
     {
+        id: 1,
         screenshot: AirQuality,
         title: "Air Quality Dashboard",
         description: "An interactive dashboard that retrieves real-time Air Quality Index (AQI) data from an external API and presents pollution metrics through a clean and responsive user interface.",
@@ -17,6 +18,7 @@ const projects = [
         techStack: ["HTML", "CSS", "JS"]
     },
     {
+        id: 2,
         screenshot: Portfolio,
         title: "Portfolio Website",
         description: "A responsive portfolio website built with React and Tailwind CSS to showcase my projects, skills, and learning journey as a frontend developer.",
@@ -25,6 +27,7 @@ const projects = [
         techStack: ["React", "Tailwind CSS"]
     },
     {
+        id: 3,
         screenshot: BrainLyx,
         title: "BrainLyx",
         description: "An educational platform that teaches climate change concepts to children through interactive learning content and engaging lessons.",
@@ -33,6 +36,7 @@ const projects = [
         techStack: ["HTML", "CSS", "JS"]
     },
     {
+        id: 4,
         screenshot: ToDo,
         title: "Todo App",
         description: "A task management application that allows users to create, complete, and delete tasks while storing data locally in the browser.",
@@ -41,6 +45,7 @@ const projects = [
         techStack: ["HTML", "CSS", "JS"]
     },
     {
+        id: 5,
         screenshot: Netflix,
         title: "Netflix Clone",
         description: "A Netflix-inspired web application built to practice responsive layouts, component-based development, and modern frontend design principles.",
@@ -49,6 +54,7 @@ const projects = [
         techStack: ["HTML", "CSS", "JS"]
     },
     {
+        id: 6,
         screenshot: BgChanger,
         title: "Background Color Changer",
         description: "A simple React application that dynamically changes the background color based on user interaction, helping reinforce React state management concepts.",
@@ -63,8 +69,18 @@ function Projects() {
         <>
             <section id="projects" className="flex flex-col items-center relative min-h-screen p-16 bg-[#111111] border-t-4 border-[#2A2A2A]">
                 <h1 className="text-5xl px-18 py-4 mt-24 w-fit border-6 rounded-2xl text-[#FFFFFF] shadow-2xl shadow-black">PROJECTS</h1>
-                <div className="flex relative flex-col justify-center w-[80vw] mt-18 p-4">
-                    <ProjectCard />
+                <div className="grid grid-cols-2 w-[80vw] gap-8 mt-18 p-4">
+                    {projects.map((project) => (
+                        <ProjectCard
+                            key={project.id}
+                            screenshot={project.screenshot} 
+                            title={project.title}
+                            description={project.description}
+                            github={project.github}
+                            demo={project.demo}
+                            techStack={project.techStack}
+                        />
+                    ))}
                 </div>
             </section>        
         </>
