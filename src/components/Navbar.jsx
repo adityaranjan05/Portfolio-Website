@@ -11,7 +11,7 @@ const navlinks = [
 function Navbar() {
     // const [index, setIndex] = useState(0);
     return (
-        <nav className="fixed top-0 left-0 z-50 w-full flex justify-center">
+        <nav className=" top-0 left-0 z-50 w-full flex justify-center">
             <ul className="flex list-none gap-12 mt-5 px-6 py-4 w-fit bg-[#1A1A1A] rounded-2xl shadow-lg shadow-[#1d1c1c]">
                 {navlinks.map((link) => (
                     <li 

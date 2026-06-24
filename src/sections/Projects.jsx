@@ -17,15 +17,15 @@ const projects = [
         demo: "https://03-air-quality-dashboard.vercel.app/",
         techStack: ["HTML", "CSS", "JS"]
     },
-    {
-        id: 2,
-        screenshot: Portfolio,
-        title: "Portfolio Website",
-        description: "A responsive portfolio website built with React and Tailwind CSS to showcase my projects, skills, and learning journey as a frontend developer.",
-        github: "https://github.com/adityaranjan05/Portfolio-Website",
-        demo: "",
-        techStack: ["React", "Tailwind CSS"]
-    },
+    // {
+    //     id: 2,
+    //     screenshot: Portfolio,
+    //     title: "Portfolio Website",
+    //     description: "A responsive portfolio website built with React and Tailwind CSS to showcase my projects, skills, and learning journey as a frontend developer.",
+    //     github: "https://github.com/adityaranjan05/Portfolio-Website",
+    //     demo: "",
+    //     techStack: ["React", "Tailwind CSS"]
+    // },
     {
         id: 3,
         screenshot: BrainLyx,
@@ -67,9 +67,10 @@ const projects = [
 function Projects() {
     return (
         <>
-            <section id="projects" className="flex flex-col items-center relative min-h-screen p-16 bg-[#111111] border-t-4 border-[#2A2A2A]">
-                <h1 className="text-5xl px-18 py-4 mt-24 w-fit border-6 rounded-2xl text-[#FFFFFF] shadow-2xl shadow-black tracking-widest">PROJECTS</h1>
-                <div className="grid grid-cols-2 w-[80vw] gap-8 mt-18 p-4">
+            <section id="projects" className="flex items-center flex-col relative min-h-screen px-16 pb-16 pt-60 bg-[#0A0A0A]">
+                <h1 className="text-5xl p-3 w-fit rounded-2xl text-[#FFFFFF] tracking-widest font-bold">MY</h1>
+                <h1 className="text-5xl p-3 w-fit rounded-2xl text-cyan-400 tracking-widest font-bold">PROJECTS</h1>
+                <div className="grid grid-cols-1 lg:grid-cols-2 w-[90vw] lg:w-[80vw] gap-8 mt-24 p-4">
                     {projects.map((project) => (
                         <ProjectCard
                             key={project.id}

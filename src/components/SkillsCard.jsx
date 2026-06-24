@@ -16,18 +16,15 @@ const usingNow = [
     { image: Tailwind, name: "Tailwind CSS" },
     { image: JS, name: "JavaScript" },
     { image: React, name: "React" },
+    
+    { image: CPP, name: "C++" },
+];
+
+const tools = [
     { image: Git, name: "Git" },
     { image: Github, name: "GitHub" },
     { image: Vercel, name: "Vercel" },
     { image: Figma, name: "Figma" },
-    { image: CPP, name: "C++" },
-];
-
-const learning = [
-    { image: JS, name: "JavaScript" },
-    { image: React, name: "React" },
-    { image: Tailwind, name: "Tailwind CSS" },
-    { image: CPP, name: "C++" },
 ]
 
 // const others = [
@@ -60,9 +57,9 @@ function SkillsCard() {
                 animate={true}
             />
             <SkillRow 
-                title="Learning Now:"
-                skills={[...learning, ...learning, ...learning, ...learning]}
-                animate={true}
+                title="Tools:"
+                skills={[...tools]}
+                animate={false}
             />
             {/* <SkillRow 
                 title="OTHER SKILLS:"

@@ -1,7 +1,7 @@
 function ProjectCard(props) {
     return (
         <>
-            <div className="bg-neutral-900 p-5 rounded-2xl z-10 shadow-lg shadow-black/20 border-2 border-[#2A2A2A] hover:scale-[1.02] hover:rotate-y-1 hover:shadow-xl transition-all duration-300">
+            <div className="bg-[#111111] p-5 rounded-2xl z-10 shadow-lg shadow-black/20 border-2 border-[#1A1A1A] hover:scale-[1.02] hover:rotate-y-1 hover:shadow-xl transition-all duration-300">
 
                 <a 
                     href={props.demo} 
@@ -10,7 +10,7 @@ function ProjectCard(props) {
                 >
                     <img 
                         src={props.screenshot} 
-                        className="text-neutral-400 rougnded-2xl h-96 object-cover border-2 border-[#2A2A2A]" 
+                        className="text-neutral-400 rounded-2xl h-37 md:h-96 object-cover border-2 border-[#2A2A2A]" 
                     />
                 </a>
 
@@ -27,7 +27,7 @@ function ProjectCard(props) {
                         href={props.github} 
                         rel="noopener noreferrer" 
                         target="_blank" 
-                        className="text-white py-1 px-3 rounded-lg tracking-widest bg-[#222222] border-2 border-[#333333] shadow-lg shadow-black/30 duration-200 hover:border-[#555555] hover:bg-[#2E2E2E]"
+                        className="text-white py-1 px-3 rounded-lg tracking-widest bg-blue-600 hover:bg-blue-500 border-2 border-blue-500 shadow-lg shadow-black/30 duration-200 hover:bg-[#2E2E2E]"
                     >
                         GitHub
                     </a>
@@ -36,7 +36,7 @@ function ProjectCard(props) {
                         href={props.demo} 
                         rel="noopener noreferrer" 
                         target="_blank" 
-                        className="text-white py-1 px-3 rounded-lg tracking-widest bg-[#222222] border-2 border-[#333333] shadow-lg shadow-black/30 duration-200 hover:border-[#555555] hover:bg-[#2E2E2E]"
+                        className="text-white py-1 px-3 rounded-lg tracking-widest bg-blue-600 hover:bg-blue-500 border-2 border-blue-500 shadow-lg shadow-black/30 duration-200 hover:bg-[#2E2E2E]"
                     >
                         Demo
                     </a>

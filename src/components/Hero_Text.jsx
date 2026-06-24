@@ -5,9 +5,9 @@ import { FaLinkedin } from "react-icons/fa";
 function HeroText () {
     return (
         <div className="my-auto mx-14">
-            <p className="text-2xl text-[#94A3B8] duration-250 hover:scale-105">Hi, I am</p>
-            <h1 className="text-6xl text-[#F8FAFC] duration-250 hover:scale-105">ADITYA RANJAN SINHA</h1>
-            <p className="text-2xl text-[#94A3B8] duration-250 hover:scale-105">Front-end Developer/ CSE Student</p>
+            <p className="text-2xl text-zinc-500 duration-250 hover:scale-105">Hi, I am</p>
+            <h1 className="text-6xl text-white duration-250 hover:scale-105">ADITYA RANJAN SINHA</h1>
+            <p className="text-2xl text-zinc-500 duration-250 hover:scale-105">Front-end Developer/ CSE Student</p>
             <div className="flex mt-5 gap-8">
                 <a
                     href="https://github.com/adityaranjan05"

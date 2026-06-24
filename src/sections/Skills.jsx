@@ -3,12 +3,15 @@ import SkillsCard from "../components/SkillsCard"
 function Skills() {
     return (
         <>
-            <section id="skills" className="flex flex-col items-center relative min-h-screen p-16 bg-[#111111] border-t-4 border-[#2A2A2A]">
-                <h1 className="text-5xl px-18 py-4 w-fit border-6 mt-24 rounded-2xl shadow-2xl shadow-black text-[#FFFFFF] tracking-widest">SKILLS</h1>
-                <div className="flex relative flex-col justify-center w-[60vw] mt-18 p-4">
+            <section id="skills" className="flex flex-col md:flex-row gap-10 md:gap-20 justify-center items-center relative min-h-screen px-16 pb-16 pt-60 bg-[#0A0A0A]">
+                <div className="flex flex-col items-center md:self-center">
+                    <h1 className="text-5xl p-3 w-fit rounded-2xl shadow-2xl shadow-black font-bold text-[#FFFFFF] tracking-widest">TECHNICAL</h1>
+                    <h1 className="text-5xl p-3 w-fit rounded-2xl shadow-2xl shadow-black text-cyan-400 font-bold tracking-widest">SKILLS</h1>
+                </div>
+                <div className="flex relative flex-col justify-center w-full md:max-w-4xl mt-18 md:mt-0 p-4">
                     <span className="relative overflow-hidden w-full">
-                        <div className="absolute left-0 top-0 h-full w-20 bg-gradient-to-r from-[#111111] to-transparent z-10"></div>
-                        <div className="absolute right-0 top-0 h-full w-20 bg-gradient-to-l from-[#111111] to-transparent z-10"></div>
+                        <div className="absolute left-0 top-0 h-full w-20 bg-gradient-to-r from-[#0A0A0A] to-transparent z-10"></div>
+                        <div className="absolute right-0 top-0 h-full w-20 bg-gradient-to-l from-[#0A0A0A] to-transparent z-10"></div>
                         <SkillsCard />
                     </span>
                 </div>
