@@ -23,6 +23,19 @@ function ProjectCard(props) {
                     {props.description}
                 </div>
 
+                <div className="text-neutral-400 ">
+                    <ul className="flex flex-wrap gap-4 mt-4">
+                        {props.techStack?.map((tech, index) =>
+                            <li 
+                                key={index}
+                                className="tracking-wider py-1 px-3 rounded-full bg-[#111111] border border-[#2A2A2A] text-[#A3A3A3] duration-200 hover:border hover:border-orange-600 hover:text-orange-500 hover:bg-orange-400/10"
+                            >
+                                {tech}
+                            </li>
+                        )}
+                    </ul>
+                </div>
+
                 <div className="flex gap-4 mt-4">
                     <a 
                         href={props.github} 
@@ -44,20 +57,6 @@ function ProjectCard(props) {
                         Demo
                     </a>
                 </div>
-
-                <div className="text-neutral-400 ">
-                    <ul className="flex flex-wrap gap-4 mt-4">
-                        {props.techStack?.map((tech, index) =>
-                            <li 
-                                key={index}
-                                className="tracking-wider py-1 px-3 rounded-full bg-[#111111] border border-[#2A2A2A] text-[#A3A3A3] duration-200 hover:border hover:border-orange-600 hover:text-orange-500 hover:bg-orange-400/10"
-                            >
-                                {tech}
-                            </li>
-                        )}
-                    </ul>
-                </div>
-
             </div>
         </>
     )
