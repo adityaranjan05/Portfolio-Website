@@ -44,6 +44,7 @@ The project was built to strengthen my React fundamentals, improve UI developmen
 src/
 ├── assets/
 ├── components/
+├── sections/
 ├── App.jsx
 ├── main.jsx
 └── index.css
@@ -56,13 +57,13 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/adityaranjan05/Portfolio-Website.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd your-repository-name
+cd Portfolio-Website
 ```
 
 Install dependencies:
