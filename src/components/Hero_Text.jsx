@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
@@ -7,12 +7,12 @@ function HeroText () {
     return (
         <div className="my-auto mx-14">
             <p className="text-xl text-zinc-500">Hi, I am</p>
-            <h1 className="text-6xl text-white duration-250 hover:scale-105 font-bold tracking-tight my-3">ADITYA RANJAN SINHA</h1>
+            <h1 className="text-6xl text-white duration-250 hover:scale-105 font-bold tracking-tight my-6">ADITYA RANJAN SINHA</h1>
             <p className="flex text-xl text-zinc-500  gap-5">
-                <span className="bg-white/3 px-4 py-1.5 border border-white/10 gap-2 rounded-full duration-250 hover:scale-105">Front-end Developer</span>
-                <span className="bg-white/3 px-4 py-1.5 border border-white/10 gap-2 rounded-full duration-250 hover:scale-105">CSE Student</span>
+                <span className="bg-white/3 px-4 py-1.5 border border-white/10 gap-2 rounded-full duration-250  hover:border hover:border-orange-600 hover:text-orange-500 hover:bg-[#f973161a]">Front-end Developer</span>
+                <span className="bg-white/3 px-4 py-1.5 border border-white/10 gap-2 rounded-full duration-250  hover:border hover:border-orange-600 hover:text-orange-500 hover:bg-[#f973161a]">CSE Student</span>
             </p>
-            <div className="flex mt-5 gap-8">
+            <div className="flex mt-6 gap-5">
                 <a
                     href="https://github.com/adityaranjan05"
                     className="transition-transform cursor-pointer duration-150 hover:scale-120 bg-[#413e3e] p-3 rounded-2xl text-3xl hover:bg-neutral-900 hover:text-white active:scale-95"
@@ -20,13 +20,13 @@ function HeroText () {
                 >
                         <FaGithub />
                 </a>
-                <a
+                {/* <a
                     href="https://www.instagram.com/_adityara_05_/"
                     className="transition-transform cursor-pointer duration-150 hover:scale-120 bg-[#413e3e] p-3 rounded-2xl hover:bg-gradient-to-br from-[#833ab4] via-[#fd1d1d] to-[#fcb045] duration-200 text-3xl hover:text-white active:scale-95"
                     target="_blank"
                 >
                         <FaInstagram />
-                </a>
+                </a> */}
                 <a
                     href="https://www.instagram.com/_adityara_05_/"
                     className="transition-transform cursor-pointer duration-150 hover:scale-120 bg-[#413e3e] p-3 rounded-2xl hover:bg-[#FFFFFF] duration-200 text-3xl hover:text-[#EA4335] active:scale-95"

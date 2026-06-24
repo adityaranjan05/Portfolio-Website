@@ -16,7 +16,6 @@ const usingNow = [
     { image: Tailwind, name: "Tailwind CSS" },
     { image: JS, name: "JavaScript" },
     { image: React, name: "React" },
-    
     { image: CPP, name: "C++" },
 ];
 
@@ -35,7 +34,7 @@ function SkillRow(props) {
     return(
         <>
             <h2 className="tracking-widest text-xl mt-10 ml-14 text-[#FFFFFF]">{props.title}</h2>
-            <div className={`flex ${props.animate?"animate-scroll":""} mt-10`}>
+            <div className={`flex ${props.animate?"animate-scroll":""}  mt-10`}>
                 {props.skills.map((skill,index) => (
                     <SkillItem 
                         key={`${skill.name}-${index}`}
@@ -60,6 +59,7 @@ function SkillsCard() {
                 title="Tools:"
                 skills={[...tools]}
                 animate={false}
+                
             />
             {/* <SkillRow 
                 title="OTHER SKILLS:"

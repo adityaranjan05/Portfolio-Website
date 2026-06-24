@@ -1,7 +1,7 @@
 function ProjectCard(props) {
     return (
         <>
-            <div className="bg-[#111111] p-5 rounded-2xl z-10 shadow-lg shadow-black/20 border-2 border-[#1A1A1A] hover:scale-[1.02] hover:rotate-y-1 hover:shadow-xl transition-all duration-300">
+            <div className="bg-[#111111] p-5 rounded-2xl z-10 shadow-md shadow-black/20 border-2 border-[#1A1A1A] hover:scale-[1.02] hover:shadow-xl hover:border-orange-600/50 hover:shadow-orange-400/20 transition-all duration-300">
 
                 <a 
                     href={props.demo} 
@@ -9,8 +9,9 @@ function ProjectCard(props) {
                     target="_blank"
                 >
                     <img 
-                        src={props.screenshot} 
-                        className="text-neutral-400 rounded-2xl h-37 md:h-96 object-cover border-2 border-[#2A2A2A]" 
+                        src={props.screenshot}
+                        alt={`${props.title} Screenshot`} 
+                        className="rounded-2xl h-37 md:h-96 object-cover border-2 border-[#2A2A2A]" 
                     />
                 </a>
 
@@ -27,7 +28,8 @@ function ProjectCard(props) {
                         href={props.github} 
                         rel="noopener noreferrer" 
                         target="_blank" 
-                        className="text-white py-1 px-3 rounded-lg tracking-widest bg-blue-600 hover:bg-blue-500 border-2 border-blue-500 shadow-lg shadow-black/30 duration-200 hover:bg-[#2E2E2E]"
+                        aria-label={`View ${props.title} source code on GitHub`}
+                         className="text-orange-500 py-1 px-3 rounded-lg tracking-widest border border-orange-500 hover:bg-[#f973161a] duration-200 hover:scale-105 active:scale-95"
                     >
                         GitHub
                     </a>
@@ -35,8 +37,9 @@ function ProjectCard(props) {
                     <a 
                         href={props.demo} 
                         rel="noopener noreferrer" 
-                        target="_blank" 
-                        className="text-white py-1 px-3 rounded-lg tracking-widest bg-blue-600 hover:bg-blue-500 border-2 border-blue-500 shadow-lg shadow-black/30 duration-200 hover:bg-[#2E2E2E]"
+                        target="_blank"
+                        aria-label={`View ${props.title} live demo`}
+                        className="text-orange-500 py-1 px-3 rounded-lg tracking-widest border border-orange-500 hover:bg-[#f973161a] duration-200 hover:scale-105 active:scale-95"
                     >
                         Demo
                     </a>
@@ -44,10 +47,10 @@ function ProjectCard(props) {
 
                 <div className="text-neutral-400 ">
                     <ul className="flex flex-wrap gap-4 mt-4">
-                        {props.techStack.map((tech, index) =>
+                        {props.techStack?.map((tech, index) =>
                             <li 
                                 key={index}
-                                className="tracking-wider py-1 px-3 rounded-full bg-[#111111] border border-[#2A2A2A] text-[#A3A3A3] duration-200 hover:bg-[#2A2A2A] hover:text-white hover:border-white"
+                                className="tracking-wider py-1 px-3 rounded-full bg-[#111111] border border-[#2A2A2A] text-[#A3A3A3] duration-200 hover:border hover:border-orange-600 hover:text-orange-500 hover:bg-orange-400/10"
                             >
                                 {tech}
                             </li>
