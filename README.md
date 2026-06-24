@@ -98,8 +98,8 @@ While building this project, I practiced:
 ## Connect With Me
 
 - GitHub: https://github.com/adityaranjan05
-- LinkedIn: Your LinkedIn Profile
-- Email: Your Email Address
+- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/adityaranjansinha)
+- Email: [ Your Email Address](mailto:aditya.ranjan.cs@gmail.com)
 
 ---
 
