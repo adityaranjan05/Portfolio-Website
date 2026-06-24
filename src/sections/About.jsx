@@ -15,7 +15,7 @@ function About() {
             <h1 className="text-5xl p-3 w-fit  rounded-2xl shadow-2xl shadow-black text-cyan-400 font-bold">TO KNOW ABOUT ME</h1>
             <div className="flex flex-col items-center text-center mt-24 text-lg leading-loose">
                 <p className="tracking-widest text-shadow-amber-300 text-zinc-500">
-                    I’m Aditya Ranjan Sinha, a Computer Science student at DSCE Bangalore.
+                    I’m Aditya Ranjan Sinha, a Computer Science student.
                 </p>
                 <p className="tracking-widest text-zinc-500">
                     I am currently focused on learning React, Data Structures & Algorithms,
