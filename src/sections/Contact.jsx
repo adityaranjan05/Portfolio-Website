@@ -44,6 +44,14 @@ function Contact() {
                             className=" flex gap-3 items-center p-4 bg-[#111111] border border-[#2A2A2A] rounded-xl hover:border-orange-500 hover:bg-orange-500/20 text-white hover:text-orange-500 duration-300 w-fit hover:translate-x-2">
                             <FaLinkedin className="text-xl text-blue-500" /> LinkedIn
                         </a>
+
+                        <a
+                            href="/Aditya_Ranjan_Sinha_Resume.pdf"
+                            download
+                            className="flex gap-3 items-center p-4 bg-orange-500/70 rounded-xl text-white hover:bg-orange-600 duration-300 w-fit hover:translate-x-2"
+                        >
+                                Download Resume
+                        </a>
                     </div>
                 </div>
 
