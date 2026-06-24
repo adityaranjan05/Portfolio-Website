@@ -15,31 +15,43 @@ function HeroText () {
             <div className="flex mt-6 gap-5">
                 <a
                     href="https://github.com/adityaranjan05"
-                    className="transition-transform cursor-pointer duration-150 hover:scale-120 bg-[#413e3e] p-3 rounded-2xl text-3xl hover:bg-neutral-900 hover:text-white active:scale-95"
+                    aria-label="GitHub Profile"
+                    className="transition-transform cursor-pointer duration-150 hover:scale-110 bg-[#413e3e] p-3 rounded-2xl text-3xl hover:bg-neutral-900 hover:text-white active:scale-95"
                     target="_blank"
                 >
                         <FaGithub />
                 </a>
                 {/* <a
                     href="https://www.instagram.com/_adityara_05_/"
-                    className="transition-transform cursor-pointer duration-150 hover:scale-120 bg-[#413e3e] p-3 rounded-2xl hover:bg-gradient-to-br from-[#833ab4] via-[#fd1d1d] to-[#fcb045] duration-200 text-3xl hover:text-white active:scale-95"
+                    className="transition-transform cursor-pointer duration-150 hover:scale-120 bg-[#413e3e] p-3 rounded-2xl hove1:bg-gradient-to-br from-[#833ab4] via-[#fd1d1d] to-[#fcb045] duration-200 text-3xl hover:text-white active:scale-95"
                     target="_blank"
                 >
                         <FaInstagram />
                 </a> */}
                 <a
-                    href="https://www.instagram.com/_adityara_05_/"
-                    className="transition-transform cursor-pointer duration-150 hover:scale-120 bg-[#413e3e] p-3 rounded-2xl hover:bg-[#FFFFFF] duration-200 text-3xl hover:text-[#EA4335] active:scale-95"
+                    href="mailto:aditya.ranjan.sinha@gmail.com"
+                    aria-label="Gmail"
+                    className="transition-transform cursor-pointer duration-150 hover:scale-110 bg-[#413e3e] p-3 rounded-2xl hover:bg-[#FFFFFF] text-3xl hover:text-[#EA4335] active:scale-95"
                     target="_blank"
                 >
                         <SiGmail />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/adityaranjansinha"
-                    className="transition-transform cursor-pointer duration-150 hover:scale-120 hover:bg-[#0A66C2] hover:text-white duration-200 bg-[#413e3e] p-3 rounded-2xl text-3xl active:scale-95"
+                    aria-label="LinkedIn Profile"
+                    className="transition-transform cursor-pointer duration-150 hover:scale-110 hover:bg-[#0A66C2] hover:text-white bg-[#413e3e] p-3 rounded-2xl text-3xl active:scale-95"
                     target="_blank"
                 >
                         <FaLinkedin />
+                </a>
+            </div>
+            <div className="mt-6">
+                <a
+                    href="/resume.pdf"
+                    target="_blank"
+                    className="inline-block px-6 py-2 rounded-full bg-[#1A1A1A] text-white font-medium transition-transform duration-200 hover:scale-105 border-2 border-[#2A2A2A] hover:border-orange-600 hover:text-orange-500 hover:bg-[#f973161a] active:scale-95"
+                >
+                        View Resume
                 </a>
             </div>
         </div>

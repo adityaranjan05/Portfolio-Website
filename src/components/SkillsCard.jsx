@@ -17,23 +17,16 @@ const usingNow = [
     { image: JS, name: "JavaScript" },
     { image: React, name: "React" },
     { image: CPP, name: "C++" },
-];
-
-const tools = [
     { image: Git, name: "Git" },
     { image: Github, name: "GitHub" },
     { image: Vercel, name: "Vercel" },
     { image: Figma, name: "Figma" },
-]
-
-// const others = [
-//     { image: CPP, name: "C++" },
-// ]
+];
 
 function SkillRow(props) {
     return(
         <>
-            <h2 className="tracking-widest text-xl mt-10 ml-14 text-[#FFFFFF]">{props.title}</h2>
+            {/* <h2 className="tracking-widest text-xl mt-10 ml-14 text-[#FFFFFF]">{props.title}</h2> */}
             <div className={`flex ${props.animate?"animate-scroll":""}  mt-10`}>
                 {props.skills.map((skill,index) => (
                     <SkillItem 
@@ -49,23 +42,12 @@ function SkillRow(props) {
 
 function SkillsCard() {
     return (
-        <div className="flex flex-col">
+        <div>
             <SkillRow 
-                title="USING NOW:"
+                // title="USING NOW:"
                 skills={[...usingNow, ...usingNow]}
                 animate={true}
             />
-            <SkillRow 
-                title="Tools:"
-                skills={[...tools]}
-                animate={false}
-                
-            />
-            {/* <SkillRow 
-                title="OTHER SKILLS:"
-                skills={others}
-                animate={false}
-            /> */}
         </div>
     )
 }

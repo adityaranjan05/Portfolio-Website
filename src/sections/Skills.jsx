@@ -3,7 +3,7 @@ import SkillsCard from "../components/SkillsCard"
 function Skills() {
     return (
         <>
-            <section id="skills" className="flex flex-col md:flex-row gap-10 md:gap-20 justify-center items-center relative min-h-screen px-16 pb-16 pt-60 bg-[#0A0A0A]">
+            <section id="skills" className="flex flex-col md:flex-row gap-10 md:gap-20 justify-center items-center relative min-h-screen px-16 bg-[#0A0A0A]">
                 <div className="flex flex-col items-center md:self-center">
                     <h1 className="text-7xl p-3 w-fit rounded-2xl shadow-2xl shadow-black font-bold text-[#FFFFFF] tracking-wide">TECHNICAL</h1>
                     <h1 className="text-7xl p-3 w-fit text-orange-500 font-bold tracking-wide">SKILLS</h1>

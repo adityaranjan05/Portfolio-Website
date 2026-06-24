@@ -67,7 +67,7 @@ const projects = [
 function Projects() {
     return (
         <>
-            <section id="projects" className="flex items-center flex-col relative min-h-screen px-16 pb-16 pt-60 bg-[#0A0A0A]">
+            <section id="projects" className="flex items-center flex-col relative min-h-screen px-16 pb-16 bg-[#0A0A0A]">
                 <h1 className="text-7xl p-3 w-fit text-[#FFFFFF] tracking-wide font-bold">MY</h1>
                 <h1 className="text-7xl p-3 w-fit text-orange-600 tracking-wide font-bold">PROJECTS</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 w-[90vw] lg:w-[80vw] gap-8 mt-24 p-4">
