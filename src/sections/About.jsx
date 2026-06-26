@@ -14,19 +14,19 @@ function About() {
             <h1 className="text-center text-4xl lg:text-7xl p-3 w-fit text-[#FFFFFF] font-bold tracking-wide">EVERYTHING YOU NEED</h1>
             <h1 className="text-center text-4xl lg:text-7xl p-3 w-fit text-orange-600 font-bold tracking-wide">TO KNOW ABOUT ME</h1>
             <div className="flex flex-col items-center text-center mt-24 text-lg leading-loose">
-                <p className="tracking-widest text-zinc-500 max-w-2xl">
+                <p className="tracking-wide lg:tracking-widest text-zinc-500 max-w-2xl">
                     I’m Aditya Ranjan Sinha, a Computer Science student.
                 </p>
-                <p className="tracking-widest text-zinc-500 max-w-3xl">
+                <p className="tracking-wide lg:tracking-widest text-zinc-500 max-w-3xl">
                     I am currently focused on learning React, Data Structures & Algorithms,
                     and modern web development through project-based learning.
                 </p>
-                <p className="tracking-widest text-zinc-500 max-w-3xl">
+                <p className="tracking-wide lg:tracking-widest text-zinc-500 max-w-3xl">
                     I enjoy building projects that help me strengthen my problem-solving
                     skills and gain practical development experience.
                 </p>
             </div>
-            <div className="flex flex-col md:flex-row justify-between w-full md:max-w-5xl mt-24">
+            <div className="flex flex-col lg:flex-row justify-between w-full lg:max-w-5xl mt-24">
                 <div>
                     <h2 className="text-xl font-bold border-b-2 border-orange-600 pb-2 tracking-widest text-[#FFFFFF]">CURRENT FOCUS</h2>
                     <ul className="list-disc mt-2">
