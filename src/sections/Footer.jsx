@@ -35,7 +35,7 @@ function Footer() {
     return(
         <>
             <section id="footer" className="max-w-full bg-[#0A0A0A]">
-                <div className="flex flex-col md:flex-row gap-36 px-8 md:px-16 py-24 pt-40 border-t border-zinc-800">
+                <div className="flex flex-col md:flex-row gap-36 px-8 md:px-16 py-24 pt-40 border-t border-zinc-800 justify-around">
                     <div className="max-w-xl">
                         <span className="text-white text-4xl md:text-6xl font-bold">ADITYA</span>
                         <span className="text-orange-600 text-4xl md:text-6xl font-bold"> RANJAN</span>
