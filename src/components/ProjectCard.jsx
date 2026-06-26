@@ -1,7 +1,7 @@
 function ProjectCard(props) {
     return (
         <>
-            <div className="bg-[#111111] p-5 rounded-2xl z-10 shadow-md shadow-black/20 border-2 border-[#1A1A1A] hover:scale-[1.02] hover:shadow-xl hover:border-orange-600/50 hover:shadow-orange-400/20 transition-all duration-300">
+            <div className="bg-[#111111] p-5 rounded-2xl z-10 shadow-md shadow-black/20 border-2 border-[#1A1A1A] hover:scale-[1.02] hover:shadow-xl hover:border-orange-600/50 hover:shadow-orange-400/20 transition-all duration-300 hover:rotate-1">
 
                 <a 
                     href={props.demo} 

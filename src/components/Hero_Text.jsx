@@ -15,7 +15,7 @@ function HeroText () {
                 <a
                     href="https://github.com/adityaranjan05"
                     aria-label="GitHub Profile"
-                    className="transition-transform cursor-pointer duration-150 hover:scale-110 bg-[#413e3e] p-3 rounded-2xl text-3xl hover:bg-neutral-900 hover:text-white active:scale-95"
+                    className="transition-transform cursor-pointer duration-150 hover:scale-110 bg-[#413e3e] p-3 rounded-2xl text-3xl hover:bg-neutral-900 hover:text-white active:scale-95 hover:rotate-6"
                     target="_blank"
                 >
                         <FaGithub />
@@ -23,7 +23,7 @@ function HeroText () {
                 <a
                     href="mailto:aditya.ranjan.sinha@gmail.com"
                     aria-label="Gmail"
-                    className="transition-transform cursor-pointer duration-150 hover:scale-110 bg-[#413e3e] p-3 rounded-2xl hover:bg-[#FFFFFF] text-3xl hover:text-[#EA4335] active:scale-95"
+                    className="transition-transform cursor-pointer duration-150 hover:scale-110 bg-[#413e3e] p-3 rounded-2xl hover:bg-[#FFFFFF] text-3xl hover:text-[#EA4335] active:scale-95 hover:rotate-6"
                     target="_blank"
                 >
                         <SiGmail />
@@ -31,7 +31,7 @@ function HeroText () {
                 <a
                     href="https://www.linkedin.com/in/adityaranjansinha"
                     aria-label="LinkedIn Profile"
-                    className="transition-transform cursor-pointer duration-150 hover:scale-110 hover:bg-[#0A66C2] hover:text-white bg-[#413e3e] p-3 rounded-2xl text-3xl active:scale-95"
+                    className="transition-transform cursor-pointer duration-150 hover:scale-110 hover:bg-[#0A66C2] hover:text-white bg-[#413e3e] p-3 rounded-2xl text-3xl active:scale-95 hover:rotate-6"
                     target="_blank"
                 >
                         <FaLinkedin />

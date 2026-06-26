@@ -57,19 +57,36 @@ function Contact() {
 
                 {/* Right Side */}
                 <form className="space-y-6 my-auto flex-1">
+                    <label htmlFor="name" className="sr-only">
+                        Name
+                    </label>
                     <input
+                        id="name"
+                        name="name"
+                        autoComplete="name"
                         type="text"
                         placeholder="Your Name"
                         className="w-full p-4 bg-[#111111] border border-[#2A2A2A] rounded-xl text-white focus:border-orange-500 outline-none"
                     />
 
+                    <label htmlFor="email" className="sr-only">
+                        Email
+                    </label>
                     <input
+                        id="email"
+                        name="email"
+                        autoComplete="email"
                         type="email"
                         placeholder="Your Email"
                         className="w-full p-4 bg-[#111111] border border-[#2A2A2A] rounded-xl text-white focus:border-orange-500 outline-none"
                     />
 
+                    <label htmlFor="message" className="sr-only">
+                        Message
+                    </label>
                     <textarea
+                        id="message"
+                        name="message"
                         rows="6"
                         placeholder="Your Message"
                         className="w-full p-4 bg-[#111111] border border-[#2A2A2A] rounded-xl text-white focus:border-orange-500 outline-none resize-none"
