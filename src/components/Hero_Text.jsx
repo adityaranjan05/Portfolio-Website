@@ -4,7 +4,7 @@ import { SiGmail } from "react-icons/si";
 
 function HeroText () {
     return (
-        <div className="my-auto mx-14">
+        <div className="my-auto mx-8 lg:mx-14">
             <p className="text-lg lg:text-xl text-zinc-500">Hi, I am</p>
             <h1 className="text-3xl lg:text-6xl text-white duration-250 hover:scale-105 font-bold tracking-tight my-6">ADITYA RANJAN SINHA</h1>
             <p className="flex flex-col lg:flex-row text-lg lg:text-xl text-orange-500 lg:text-zinc-500  gap-5">

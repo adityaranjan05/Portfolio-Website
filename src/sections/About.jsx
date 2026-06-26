@@ -11,8 +11,8 @@ function About() {
     return (
         <section id="about" className="flex flex-col px-16 pb-16 pt-60 items-center relative min-h-screen max-w-full bg-[#0A0A0A]">
             {/* <Navbar /> */}
-            <h1 className="text-7xl p-3 w-fit text-[#FFFFFF] font-bold tracking-wide">EVERYTHING YOU NEED</h1>
-            <h1 className="text-7xl p-3 w-fit text-orange-600 font-bold tracking-wide">TO KNOW ABOUT ME</h1>
+            <h1 className="text-center text-4xl lg:text-7xl p-3 w-fit text-[#FFFFFF] font-bold tracking-wide">EVERYTHING YOU NEED</h1>
+            <h1 className="text-center text-4xl lg:text-7xl p-3 w-fit text-orange-600 font-bold tracking-wide">TO KNOW ABOUT ME</h1>
             <div className="flex flex-col items-center text-center mt-24 text-lg leading-loose">
                 <p className="tracking-widest text-zinc-500 max-w-2xl">
                     I’m Aditya Ranjan Sinha, a Computer Science student.
