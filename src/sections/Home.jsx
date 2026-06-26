@@ -4,7 +4,7 @@ import HeroText from "../components/Hero_Text";
 
 function Home() {
     return (
-        <section id='home' className='flex relative h-screen bg-[#0A0A0A]'>
+        <section id='home' className='flex max-w-full relative min-h-screen bg-[#0A0A0A]'>
             {/* <Navbar /> */}
             <HeroText />
             <Profile />

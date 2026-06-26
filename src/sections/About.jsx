@@ -9,7 +9,7 @@ const focus = ["Learning React",
 function About() {
 
     return (
-        <section id="about" className="flex flex-col px-16 pb-16 pt-60 items-center relative min-h-screen bg-[#0A0A0A]">
+        <section id="about" className="flex flex-col px-16 pb-16 pt-60 items-center relative min-h-screen max-w-full bg-[#0A0A0A]">
             {/* <Navbar /> */}
             <h1 className="text-7xl p-3 w-fit text-[#FFFFFF] font-bold tracking-wide">EVERYTHING YOU NEED</h1>
             <h1 className="text-7xl p-3 w-fit text-orange-600 font-bold tracking-wide">TO KNOW ABOUT ME</h1>

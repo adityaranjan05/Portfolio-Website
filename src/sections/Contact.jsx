@@ -26,7 +26,7 @@ function Contact() {
                             href="mailto:aditya.ranjan.cs@gmail.com"
                             rel="noopener noreferrer"
                             className=" flex gap-3 items-center p-4 bg-[#111111] border border-[#2A2A2A] rounded-xl hover:border-orange-500 hover:bg-orange-500/20 text-white hover:text-orange-500 duration-300 w-fit hover:translate-x-2">
-                            <SiGmail className="text-xl text-[#EA4335]" /> Email
+                            <SiGmail className="text-2xl text-[#EA4335] bg-white rounded-md p-1" /> Email
                         </a>
 
                         <a
@@ -34,7 +34,7 @@ function Contact() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className=" flex gap-3 items-center p-4 bg-[#111111] border border-[#2A2A2A] rounded-xl hover:border-orange-500 hover:bg-orange-500/20 text-white hover:text-orange-500 duration-300 w-fit hover:translate-x-2">
-                            <FaGithub className="text-xl" /> GitHub
+                            <FaGithub className="text-2xl" /> GitHub
                         </a>
 
                         <a
@@ -42,7 +42,7 @@ function Contact() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className=" flex gap-3 items-center p-4 bg-[#111111] border border-[#2A2A2A] rounded-xl hover:border-orange-500 hover:bg-orange-500/20 text-white hover:text-orange-500 duration-300 w-fit hover:translate-x-2">
-                            <FaLinkedin className="text-xl text-blue-500" /> LinkedIn
+                            <FaLinkedin className="text-2xl text-blue-500" /> LinkedIn
                         </a>
 
                         <a

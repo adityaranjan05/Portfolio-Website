@@ -1,5 +1,4 @@
 import { FaGithub } from "react-icons/fa";
-// import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
@@ -21,13 +20,6 @@ function HeroText () {
                 >
                         <FaGithub />
                 </a>
-                {/* <a
-                    href="https://www.instagram.com/_adityara_05_/"
-                    className="transition-transform cursor-pointer duration-150 hover:scale-120 bg-[#413e3e] p-3 rounded-2xl hove1:bg-gradient-to-br from-[#833ab4] via-[#fd1d1d] to-[#fcb045] duration-200 text-3xl hover:text-white active:scale-95"
-                    target="_blank"
-                >
-                        <FaInstagram />
-                </a> */}
                 <a
                     href="mailto:aditya.ranjan.sinha@gmail.com"
                     aria-label="Gmail"
@@ -47,7 +39,7 @@ function HeroText () {
             </div>
             <div className="mt-6">
                 <a
-                    href="/resume.pdf"
+                    href="/Aditya_Ranjan_Sinha_Resume.pdf"
                     target="_blank"
                     className="inline-block px-6 py-2 rounded-full bg-[#1A1A1A] text-white font-medium transition-transform duration-200 hover:scale-105 border-2 border-[#2A2A2A] hover:border-orange-600 hover:text-orange-500 hover:bg-[#f973161a] active:scale-95"
                 >

@@ -4,6 +4,7 @@ import About from './sections/About.jsx'
 import Skills from './sections/Skills.jsx';
 import Projects from './sections/Projects.jsx';
 import Contact from './sections/Contact.jsx';
+import Footer from './sections/Footer.jsx';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </>
   )
 }
