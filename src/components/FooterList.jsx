@@ -1,5 +1,4 @@
 
-
 function FooterList({ title, items }) {
     return(
         <div className="w-36">
