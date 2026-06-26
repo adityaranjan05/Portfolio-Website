@@ -11,15 +11,15 @@ function ProjectCard(props) {
                     <img 
                         src={props.screenshot}
                         alt={`${props.title} Screenshot`} 
-                        className="rounded-2xl h-37 md:h-96 object-cover border-2 border-[#2A2A2A]" 
+                        className="rounded-2xl h-46 lg:h-96 object-cover border-2 border-[#2A2A2A]" 
                     />
                 </a>
 
-                <div className="tracking-widest mt-4">
+                <div className="tracking-wide lg:tracking-widest mt-4">
                     <h1 className="text-[#FFFFFF] text-2xl">{props.title}</h1>
                 </div>
 
-                <div className="text-neutral-400 tracking-wider mt-4 text-lg leading-relaxed">
+                <div className="text-neutral-400 tracking-wider mt-4 text-md lg:text-lg leading-relaxed">
                     {props.description}
                 </div>
 
