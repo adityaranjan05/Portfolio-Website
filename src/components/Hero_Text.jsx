@@ -5,9 +5,9 @@ import { SiGmail } from "react-icons/si";
 function HeroText () {
     return (
         <div className="my-auto mx-auto lg:mx-14">
-            <p className="text-lg lg:text-xl text-zinc-500">Hi, I am</p>
-            <h1 className="text-3xl lg:text-6xl text-white duration-250 hover:scale-105 font-bold tracking-tight my-6">ADITYA RANJAN SINHA</h1>
-            <p className="flex flex-col lg:flex-row text-lg lg:text-xl text-orange-500 lg:text-zinc-500  gap-5">
+            <p className="max-w-[80vw] text-lg lg:text-xl text-zinc-500">Hi, I am</p>
+            <h1 className="max-w-[80vw] text-4xl lg:text-6xl text-white duration-250 hover:scale-105 font-bold tracking-tight my-6">ADITYA RANJAN SINHA</h1>
+            <p className="max-w-[80vw] flex flex-col lg:flex-row text-lg lg:text-xl text-orange-500 lg:text-zinc-500  gap-5">
                 <span className="bg-[#f973161a] lg:bg-white/3 px-4 py-1 lg:py-1.5 border w-fit border-orange-600 lg:border-white/10 gap-2 rounded-full duration-250  hover:border hover:border-orange-600 hover:text-orange-500 hover:bg-[#f973161a]">Front-end Developer</span>
                 <span className="bg-[#f973161a] lg:bg-white/3 px-4 py-1 lg:py-1.5 w-fit border border-orange-600 lg:border-white/10 gap-2 rounded-full duration-250  hover:border hover:border-orange-600 hover:text-orange-500 hover:bg-[#f973161a]">CSE Student</span>
             </p>

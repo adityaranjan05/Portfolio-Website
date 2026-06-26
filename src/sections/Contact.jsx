@@ -4,16 +4,16 @@ import { SiGmail } from "react-icons/si";
 
 function Contact() {
     return (
-        <section id="contact" className="min-h-screen px-8 md:px-16 py-24 pt-60 bg-[#0A0A0A]">
+        <section id="contact" className="min-h-screen px-8 lg:px-16 py-24 pt-60 bg-[#0A0A0A]">
             <div className="max-w-7xl mx-auto my-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-start">
 
                 {/* Left Side */}
                 <div className="flex-1">
-                    <h1 className="text-5xl md:text-7xl text-white font-bold tracking-wide">
+                    <h1 className="text-5xl lg:text-7xl text-white font-bold tracking-wide leading-relaxed">
                         LET'S
                     </h1>
 
-                    <h1 className="text-5xl md:text-7xl text-orange-600 font-bold tracking-wide">
+                    <h1 className="text-5xl lg:text-7xl text-orange-600 font-bold tracking-wide">
                         CONNECT
                     </h1>
 

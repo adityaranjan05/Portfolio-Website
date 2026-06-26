@@ -11,7 +11,7 @@ function ProjectCard(props) {
                     <img 
                         src={props.screenshot}
                         alt={`${props.title} Screenshot`} 
-                        className="rounded-2xl h-46 lg:h-96 object-cover border-2 border-[#2A2A2A]" 
+                        className="rounded-2xl h-46 md:h-92 lg:h-96 object-cover border-2 border-[#2A2A2A]" 
                     />
                 </a>
 
