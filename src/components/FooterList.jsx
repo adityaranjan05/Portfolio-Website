@@ -1,7 +1,7 @@
 
 function FooterList({ title, items }) {
     return(
-        <div className="w-36">
+        <div className="w-fit">
             <h2 className="text-white/80 text-xl tracking-tight">{title}</h2>
             <div className="border border-orange-600 w-10 mt-4"></div>
             <ul className="list-none space-y-8 pt-10 text-lg">
