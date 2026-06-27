@@ -1,10 +1,16 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { motion } from "motion/react";
 
 function HeroText () {
     return (
-        <div className="my-auto mx-auto lg:mx-14">
+        <motion.div
+            initial={{ opacity: 0, x: -100, scale:1.5 }}
+            animate={{ opacity: 1, x: 0, scale:1 }}
+            transition={{ duration: 0.8 }} 
+            className="my-auto mx-auto lg:mx-14"
+        >
             <p className="max-w-[80vw] text-lg lg:text-xl text-zinc-500">Hi, I am</p>
             <h1 className="max-w-[80vw] text-4xl lg:text-6xl text-white duration-250 hover:scale-105 font-bold tracking-tight my-6">ADITYA RANJAN SINHA</h1>
             <p className="max-w-[80vw] flex flex-col lg:flex-row text-lg lg:text-xl text-orange-500 lg:text-zinc-500  gap-5">
@@ -46,7 +52,7 @@ function HeroText () {
                         View Resume
                 </a>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

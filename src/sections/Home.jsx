@@ -1,6 +1,7 @@
 // import Navbar from "../components/Navbar";
 import Profile from "../components/Profile";
 import HeroText from "../components/Hero_Text";
+// import { motion } from "motion/react"
 
 function Home() {
     return (
