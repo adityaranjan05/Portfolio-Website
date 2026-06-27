@@ -4,10 +4,10 @@ function ProjectCard(props) {
     return (
         <>
             <motion.div
-                initial={{ opacity: 0, x: 50 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, y: 50, scale: 1.1 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ duration: 0.8 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once:true, amount: 0.3 }}
             >
                 <div 
                     className="bg-[#111111] p-5 rounded-2xl z-10 shadow-md shadow-black/20 border-2 border-[#1A1A1A] hover:scale-[1.02] hover:shadow-xl hover:border-orange-600/50 hover:shadow-orange-400/20 transition-all duration-300 hover:rotate-1 h-full"

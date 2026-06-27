@@ -5,6 +5,7 @@ import { FaChevronRight } from "react-icons/fa";
 import FooterList from "../components/FooterList"
 import { MdOutlineEmail } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
+import { motion } from "motion/react";
 
 const quickLinks = [
     {id: 1, href: "#home", name: "Home", icon: FaChevronRight, target: null},
@@ -35,60 +36,67 @@ function Footer() {
     return(
         <>
             <section id="footer" className="max-w-full bg-[#0A0A0A]">
-                <div className="flex flex-col lg:flex-row gap-36 px-8 md:px-16 py-24 pt-40 border-t border-zinc-800 justify-around">
-                    <div className="max-w-xl">
-                        <span className="text-white text-4xl lg:text-6xl font-bold">ADITYA</span>
-                        <span className="text-orange-600 text-4xl lg:text-6xl font-bold"> RANJAN</span>
-                        <p className="text-zinc-500 pt-6 font-semibold tracking-wider">FRONTEND DEVELOPER | CSE STUDENT</p>
-                        <div className="w-20 mt-14 border border-orange-600 rounded-full"></div>
-                        <p className="text-zinc-500 text-xl tracking-wider pt-14">Building responsive and user-friendly web applications with modern technlogies.</p>
-                        <div className="flex pt-10 gap-6">
-                            <a
-                                href="https://github.com/adityaranjan05"
-                                aria-label="GitHub Profile"
-                                className="bg-[#0A0A0A] border-2 border-[#2A2A2A] text-white p-2 rounded-lg text-3xl duration-200 hover:scale-110 hover:rotate-4 hover:border-orange-600 active:scale-95"
-                            >
-                                    <FaGithub />
-                            </a>
-                            <a
-                                href="https://www.linkedin.com/in/adityaranjansinha"
-                                aria-label="LinkedIn Profile"
+                <motion.div
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                >
+                    <div className="flex flex-col lg:flex-row gap-36 px-8 md:px-16 py-24 pt-40 border-t border-zinc-800 justify-around">
+                        <div className="max-w-xl">
+                            <span className="text-white text-4xl lg:text-6xl font-bold">ADITYA</span>
+                            <span className="text-orange-600 text-4xl lg:text-6xl font-bold"> RANJAN</span>
+                            <p className="text-zinc-500 pt-6 font-semibold tracking-wider">FRONTEND DEVELOPER | CSE STUDENT</p>
+                            <div className="w-20 mt-14 border border-orange-600 rounded-full"></div>
+                            <p className="text-zinc-500 text-xl tracking-wider pt-14">Building responsive and user-friendly web applications with modern technlogies.</p>
+                            <div className="flex pt-10 gap-6">
+                                <a
+                                    href="https://github.com/adityaranjan05"
+                                    aria-label="GitHub Profile"
+                                    className="bg-[#0A0A0A] border-2 border-[#2A2A2A] text-white p-2 rounded-lg text-3xl duration-200 hover:scale-110 hover:rotate-4 hover:border-orange-600 active:scale-95"
+                                >
+                                        <FaGithub />
+                                </a>
+                                <a
+                                    href="https://www.linkedin.com/in/adityaranjansinha"
+                                    aria-label="LinkedIn Profile"
 
-                                className="bg-[#0A0A0A] border-2 border-[#2A2A2A] p-2 rounded-lg text-3xl duration-200 hover:scale-110 hover:rotate-4 hover:border-orange-600 active:scale-95"
-                            >
-                                    <FaLinkedin className="text-blue-500"/>
-                            </a>
-                            <a
-                                href="mailto:aditya.ranjan.sinha@gmail.com"
-                                aria-label="Gmail"                                
-                                className="bg-[#0A0A0A] border-2 border-[#2A2A2A] text-[#EA4335] p-2 rounded-lg text-3xl duration-200 hover:scale-110 hover:rotate-4 hover:border-orange-600 active:scale-95"
-                            >
-                                    <SiGmail className="bg-[#FFFFFF] p-1 rounded-lg"/>
-                            </a>
+                                    className="bg-[#0A0A0A] border-2 border-[#2A2A2A] p-2 rounded-lg text-3xl duration-200 hover:scale-110 hover:rotate-4 hover:border-orange-600 active:scale-95"
+                                >
+                                        <FaLinkedin className="text-blue-500"/>
+                                </a>
+                                <a
+                                    href="mailto:aditya.ranjan.sinha@gmail.com"
+                                    aria-label="Gmail"                                
+                                    className="bg-[#0A0A0A] border-2 border-[#2A2A2A] text-[#EA4335] p-2 rounded-lg text-3xl duration-200 hover:scale-110 hover:rotate-4 hover:border-orange-600 active:scale-95"
+                                >
+                                        <SiGmail className="bg-[#FFFFFF] p-1 rounded-lg"/>
+                                </a>
+                            </div>
                         </div>
+                        <FooterList
+                            title="QUICK LINKS"
+                            items={quickLinks}
+                        />
+                        {/* <FooterList
+                            title="TECHNOLOGIES"
+                            items={technologies}
+                        /> */}
+                        <FooterList
+                            title="USEFUL LINKS"
+                            items={resources}
+                        />
+                        <FooterList
+                            title="CONTACT"
+                            items={contact}
+                        />
                     </div>
-                    <FooterList
-                        title="QUICK LINKS"
-                        items={quickLinks}
-                    />
-                    {/* <FooterList
-                        title="TECHNOLOGIES"
-                        items={technologies}
-                    /> */}
-                    <FooterList
-                        title="USEFUL LINKS"
-                        items={resources}
-                    />
-                    <FooterList
-                        title="CONTACT"
-                        items={contact}
-                    />
-                </div>
-                <div className="flex flex-row justify-center gap-30 px-8 lg:px-16 py-16 border border-t-zinc-800">
-                    <h2 className="text-zinc-500 text-md lg:text-lg">
-                        &copy; 2026 Aditya Ranjan Sinha. All rights reserved.
-                    </h2>
-                </div>
+                    <div className="flex flex-row justify-center gap-30 px-8 lg:px-16 py-16 border border-t-zinc-800">
+                        <h2 className="text-zinc-500 text-md lg:text-lg">
+                            &copy; 2026 Aditya Ranjan Sinha. All rights reserved.
+                        </h2>
+                    </div>
+                </motion.div>
             </section>
         </>
     )

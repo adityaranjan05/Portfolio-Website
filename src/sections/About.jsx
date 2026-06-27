@@ -16,7 +16,7 @@ function About() {
                 initial={{opacity: 0, y: 100,}}
                 whileInView={{ opacity: 1, y: 0, }}
                 transition={{ duration: 0.8 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once:true, amount: 0.3 }}
                 className="flex flex-col items-center"
             >
                 <h1 className="text-center text-4xl lg:text-7xl p-3 w-fit text-[#FFFFFF] font-bold tracking-wide">EVERYTHING YOU NEED</h1>
@@ -40,7 +40,7 @@ function About() {
                     initial={{opacity: 0, x: -100, scale:1.5}}
                     whileInView={{ opacity: 1, x: 0, scale:1 }}
                     transition={{ duration: 0.8 }}
-                    viewport={{ amount: 0.3 }}
+                    viewport={{ once:true, amount: 0.3 }}
                     // className=""
                 >
                     <h2 className="text-xl font-bold border-b-2 border-orange-600 pb-2 tracking-widest text-[#FFFFFF]">CURRENT FOCUS</h2>
@@ -56,7 +56,7 @@ function About() {
                     initial={{opacity: 0, x: 100, scale:1.5}}
                     whileInView={{ opacity: 1, x: 0, scale:1 }}
                     transition={{ duration: 0.8 }}
-                    viewport={{ amount: 0.3 }}
+                    viewport={{ once:true, amount: 0.3 }}
                 >
                     <h2 className="font-bold text-xl mt-5 md:mt-0 border-b-2 border-orange-600 pb-2 tracking-widest text-[#FFFFFF]">GOAL</h2>
                     <p className="mt-2 text-lg leading-8 tracking-wide text-zinc-500 max-w-md">

@@ -9,7 +9,7 @@ function Skills() {
                     initial={{opacity: 0, x:-200,}}
                     animate={{opacity: 1, x:0}}
                     transition={{ duration: 1.2 }}
-                    viewport={{amount: 0.3 }}
+                    viewport={{ once:true, amount: 0.3 }}
                     className="flex flex-col items-center lg:self-center"
                 >
                         <h1 className="text-4xl lg:text-7xl p-3 w-fit rounded-2xl shadow-2xl shadow-black font-bold text-[#FFFFFF] tracking-wide">TECHNICAL</h1>
@@ -19,7 +19,7 @@ function Skills() {
                     initial={{opacity: 0, x:200,}}
                     animate={{opacity: 1, x:0}}
                     transition={{ duration: 1.2 }}
-                    viewport={{ amount: 0.3 }}
+                    viewport={{ once:true, amount: 0.3 }}
                     className="flex relative flex-col justify-center w-full lg:max-w-4xl mt-18 lg:mt-0 p-4"
                 >
                     <span className="relative overflow-hidden w-full">
