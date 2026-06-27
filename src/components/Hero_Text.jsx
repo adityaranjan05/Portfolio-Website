@@ -6,9 +6,9 @@ import { motion } from "motion/react";
 function HeroText () {
     return (
         <motion.div
-            initial={{ opacity: 0, x: -100, scale:1.5 }}
+            initial={{ opacity: 0, x: -100, scale: 1.1 }}
             animate={{ opacity: 1, x: 0, scale:1 }}
-            transition={{ duration: 0.8 }} 
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }} 
             className="my-auto mx-auto lg:mx-14"
         >
             <p className="max-w-[80vw] text-lg lg:text-xl text-zinc-500">Hi, I am</p>

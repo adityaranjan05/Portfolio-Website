@@ -15,7 +15,7 @@ function About() {
             <motion.div
                 initial={{opacity: 0, y: 100,}}
                 whileInView={{ opacity: 1, y: 0, }}
-                transition={{ duration: 0.8 }}
+                transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                 viewport={{ once:true, amount: 0.3 }}
                 className="flex flex-col items-center"
             >
@@ -37,9 +37,9 @@ function About() {
             </motion.div>
             <div className="flex flex-col lg:flex-row justify-between w-full lg:max-w-5xl mt-24">
                 <motion.div
-                    initial={{opacity: 0, x: -100, scale:1.5}}
-                    whileInView={{ opacity: 1, x: 0, scale:1 }}
-                    transition={{ duration: 0.8 }}
+                    initial={{opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
                     viewport={{ once:true, amount: 0.3 }}
                     // className=""
                 >
@@ -53,9 +53,9 @@ function About() {
                     </ul>
                 </motion.div>
                 <motion.div
-                    initial={{opacity: 0, x: 100, scale:1.5}}
-                    whileInView={{ opacity: 1, x: 0, scale:1 }}
-                    transition={{ duration: 0.8 }}
+                    initial={{opacity: 0, x: 100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
                     viewport={{ once:true, amount: 0.3 }}
                 >
                     <h2 className="font-bold text-xl mt-5 md:mt-0 border-b-2 border-orange-600 pb-2 tracking-widest text-[#FFFFFF]">GOAL</h2>

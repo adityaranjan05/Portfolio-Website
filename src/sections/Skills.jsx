@@ -8,7 +8,7 @@ function Skills() {
                 <motion.div 
                     initial={{opacity: 0, x:-200,}}
                     animate={{opacity: 1, x:0}}
-                    transition={{ duration: 1.2 }}
+                    transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
                     viewport={{ once:true, amount: 0.3 }}
                     className="flex flex-col items-center lg:self-center"
                 >
@@ -18,7 +18,7 @@ function Skills() {
                 <motion.div 
                     initial={{opacity: 0, x:200,}}
                     animate={{opacity: 1, x:0}}
-                    transition={{ duration: 1.2 }}
+                    transition={{ duration: 1.2, ease: "easeOut", delay: 0.4 }}
                     viewport={{ once:true, amount: 0.3 }}
                     className="flex relative flex-col justify-center w-full lg:max-w-4xl mt-18 lg:mt-0 p-4"
                 >
