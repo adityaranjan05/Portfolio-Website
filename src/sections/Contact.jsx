@@ -13,7 +13,7 @@ function Contact() {
                     <motion.h1
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.15 }}
                         viewport={{ once: true, amount: 0.3 }}
                         className="text-5xl lg:text-7xl text-white font-bold tracking-wide leading-relaxed"
                     >
@@ -23,7 +23,7 @@ function Contact() {
                     <motion.h1
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
                         viewport={{ once: true, amount: 0.3 }}
                         className="text-5xl lg:text-7xl text-orange-600 font-bold tracking-wide"
                     >
@@ -33,7 +33,7 @@ function Contact() {
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
+                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.45 }}
                         viewport={{ once: true, amount: 0.3 }}
                         className="text-zinc-500 mt-10 tracking-wider text-lg leading-loose"
                     >
@@ -44,7 +44,7 @@ function Contact() {
                         <motion.a
                             initial={{ opacity: 0, x: -20 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.6, ease: "easeOut", delay: 0.8 }}
+                            transition={{ duration: 0.6, ease: "easeOut", delay: 0.6 }}
                             viewport={{ once: true, amount: 0.3 }}
                             href="mailto:aditya.ranjan.cs@gmail.com"
                             className="flex gap-3 items-center p-4 bg-[#111111] border border-[#2A2A2A] rounded-xl hover:border-orange-500 hover:bg-orange-500/20 text-white hover:text-orange-500 duration-300 w-fit hover:translate-x-2"
@@ -55,7 +55,7 @@ function Contact() {
                         <motion.a
                             initial={{ opacity: 0, x: -20 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.6, ease: "easeOut", delay: 1.0 }}
+                            transition={{ duration: 0.6, ease: "easeOut", delay: 0.75 }}
                             viewport={{ once: true, amount: 0.3 }}
                             href="https://github.com/adityaranjan05"
                             target="_blank"
@@ -68,7 +68,7 @@ function Contact() {
                         <motion.a
                             initial={{ opacity: 0, x: -20 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.6, ease: "easeOut", delay: 1.2 }}
+                            transition={{ duration: 0.6, ease: "easeOut", delay: 0.9 }}
                             viewport={{ once: true, amount: 0.3 }}
                             href="https://linkedin.com/in/adityaranjansinha"
                             target="_blank"
@@ -81,7 +81,7 @@ function Contact() {
                         <motion.a
                             initial={{ opacity: 0, x: -20 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.6, ease: "easeOut", delay: 1.4 }}
+                            transition={{ duration: 0.6, ease: "easeOut", delay: 1.05 }}
                             viewport={{ once: true, amount: 0.3 }}
                             href="/Aditya_Ranjan_Sinha_Resume.pdf"
                             download
@@ -109,7 +109,7 @@ function Contact() {
                     <motion.input
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, ease: "easeOut", delay: 1.0 }}
+                        transition={{ duration: 0.6, ease: "easeOut", delay: 0.95 }}
                         viewport={{ once: true, amount: 0.3 }}
                         id="email"
                         name="email"
@@ -121,7 +121,7 @@ function Contact() {
                     <motion.textarea
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, ease: "easeOut", delay: 1.2 }}
+                        transition={{ duration: 0.6, ease: "easeOut", delay: 1.1 }}
                         viewport={{ once: true, amount: 0.3 }}
                         id="message"
                         name="message"
@@ -133,7 +133,7 @@ function Contact() {
                     <motion.button
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, ease: "easeOut", delay: 1.4 }}
+                        transition={{ duration: 0.6, ease: "easeOut", delay: 1.25 }}
                         viewport={{ once: true, amount: 0.3 }}
                         className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-xl duration-300 hover:scale-105 active:scale-95"
                     >

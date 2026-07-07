@@ -39,7 +39,7 @@ function About() {
                 <motion.div
                     initial={{opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.35 }}
                     viewport={{ once:true, amount: 0.3 }}
                     // className=""
                 >
@@ -55,7 +55,7 @@ function About() {
                 <motion.div
                     initial={{opacity: 0, x: 100 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
+                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
                     viewport={{ once:true, amount: 0.3 }}
                 >
                     <h2 className="font-bold text-xl mt-5 md:mt-0 border-b-2 border-orange-600 pb-2 tracking-widest text-[#FFFFFF]">GOAL</h2>

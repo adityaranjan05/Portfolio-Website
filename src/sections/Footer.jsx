@@ -35,7 +35,7 @@ function Footer() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.15 }}
           viewport={{ once: true, amount: 0.3 }}
           className="max-w-xl"
         >
@@ -49,9 +49,26 @@ function Footer() {
             Building responsive and user-friendly web applications with modern technologies.
           </p>
           <div className="flex pt-10 gap-6">
-            <a href="https://github.com/adityaranjan05" aria-label="GitHub Profile" className="..."><FaGithub /></a>
-            <a href="https://www.linkedin.com/in/adityaranjansinha" aria-label="LinkedIn Profile" className="..."><FaLinkedin className="text-blue-500" /></a>
-            <a href="mailto:aditya.ranjan.sinha@gmail.com" aria-label="Gmail" className="..."><SiGmail className="bg-[#FFFFFF] p-1 rounded-lg" /></a>
+            <a 
+              href="https://github.com/adityaranjan05" 
+              aria-label="GitHub Profile" 
+              className="flex items-center text-white text-3xl p-3 bg-[#111111] border border-[#2A2A2A] rounded-xl hover:border-orange-500 hover:bg-orange-500/10 duration-300 hover:translate-x-2">
+              <FaGithub />
+            </a>
+
+            <a 
+              href="https://www.linkedin.com/in/adityaranjansinha" 
+              aria-label="LinkedIn Profile" 
+              className="flex items-center text-3xl p-3 bg-[#111111] border border-[#2A2A2A] rounded-xl hover:border-orange-500 hover:bg-orange-500/10 text-white duration-300 hover:translate-x-2">
+              <FaLinkedin className="text-blue-500" />
+            </a>
+
+            <a 
+              href="mailto:aditya.ranjan.sinha@gmail.com" 
+              aria-label="Gmail" 
+              className="flex text-3xl items-center p-3 bg-[#111111] border border-[#2A2A2A] rounded-xl hover:border-orange-500 hover:bg-orange-500/10 text-orange-600 duration-300 hover:translate-x-2">
+              <SiGmail className="bg-[#FFFFFF] p-1 rounded-lg" />
+            </a>
           </div>
         </motion.div>
 
@@ -59,7 +76,7 @@ function Footer() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           viewport={{ once: true, amount: 0.3 }}
         >
           <FooterList title="QUICK LINKS" items={quickLinks} />
@@ -68,7 +85,7 @@ function Footer() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.45 }}
           viewport={{ once: true, amount: 0.3 }}
         >
           <FooterList title="USEFUL LINKS" items={resources} />
@@ -77,7 +94,7 @@ function Footer() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 0.8 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
           viewport={{ once: true, amount: 0.3 }}
         >
           <FooterList title="CONTACT" items={contact} />
@@ -88,7 +105,7 @@ function Footer() {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut", delay: 1.0 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.75 }}
         viewport={{ once: true, amount: 0.3 }}
         className="flex flex-row justify-center px-8 lg:px-16 py-16 border-t border-zinc-800"
       >
