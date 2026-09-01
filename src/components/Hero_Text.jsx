@@ -43,7 +43,14 @@ function HeroText () {
                         <FaLinkedin />
                 </a>
             </div>
-            <div className="mt-6">
+            <div className="flex mt-6 gap-5">
+                <a
+                    href="#projects"
+                    className="inline-block px-6 py-2 rounded-full bg-[#f973161a] lg:bg-[#1A1A1A] text-white font-medium transition-transform duration-200 hover:scale-105 border-2 border-orange-600 lg:border-[#2A2A2A] hover:border-orange-600 hover:text-orange-500 hover:bg-[#f973161a] active:scale-95"
+                >
+                        View Projects
+                </a>
+
                 <a
                     href="/Aditya_Ranjan_Sinha_Resume.pdf"
                     target="_blank"

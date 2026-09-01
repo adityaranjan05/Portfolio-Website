@@ -133,7 +133,7 @@ function Contact() {
                     <motion.button
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, ease: "easeOut", delay: 1.25 }}
+                        transition={{ duration: 0.6, ease: "easeOut", delay: 1.2 }}
                         viewport={{ once: true, amount: 0.3 }}
                         className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-xl duration-300 hover:scale-105 active:scale-95"
                     >

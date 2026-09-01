@@ -64,7 +64,7 @@ function Footer() {
             </a>
 
             <a 
-              href="mailto:aditya.ranjan.sinha@gmail.com" 
+              href="mailto:aditya.ranjan.cs@gmail.com" 
               aria-label="Gmail" 
               className="flex text-3xl items-center p-3 bg-[#111111] border border-[#2A2A2A] rounded-xl hover:border-orange-500 hover:bg-orange-500/10 text-orange-600 duration-300 hover:translate-x-2">
               <SiGmail className="bg-[#FFFFFF] p-1 rounded-lg" />
