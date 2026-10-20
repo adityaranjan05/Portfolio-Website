@@ -4,6 +4,7 @@ import AirQuality from "../assets/AirQuality.png"
 import BrainLyx from "../assets/BrainLyx.png" 
 import Netflix from "../assets/Netflix.png" 
 // import Portfolio from "../assets/Portfolio.png"
+import FilmOrae from "../assets/FilmOrae.png"
 import ToDo from "../assets/ToDo.png" 
 
 
@@ -17,15 +18,15 @@ const projects = [
         demo: "https://03-air-quality-dashboard.vercel.app/",
         techStack: ["HTML", "CSS", "JS"]
     },
-    // {
-    //     id: 2,
-    //     screenshot: Portfolio,
-    //     title: "Portfolio Website",
-    //     description: "A responsive portfolio website built with React and Tailwind CSS to showcase my projects, skills, and learning journey as a frontend developer.",
-    //     github: "https://github.com/adityaranjan05/Portfolio-Website",
-    //     demo: "",
-    //     techStack: ["React", "Tailwind CSS"]
-    // },
+    {
+        id: 2,
+        screenshot: FilmOrae,
+        title: "FilmOrae",
+        description: "A responsive movie discovery website built with React and Tailwind CSS, featuring genre-based discovery, sorting, movie details, ratings, cast information, trailers, and TV series information using the TMDB API.",
+        github: "https://github.com/adityaranjan05/FilmOrae",
+        demo: "https://filmorae.vercel.app/",
+        techStack: ["React", "JavaScript", "Tailwind CSS", "React Router", "TMDB API"]
+    },
     {
         id: 3,
         screenshot: BrainLyx,
